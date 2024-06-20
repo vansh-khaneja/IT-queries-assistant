@@ -59,7 +59,7 @@ vectorstore = Qdrant.from_documents(
     collection_name="it_sol_chatbot",
 )
 
-llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768",groq_api_key="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")
+llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768",groq_api_key="YOUR_API_KEY")
 
 metadata_field_info = [
     AttributeInfo(
